@@ -9,6 +9,8 @@ export class BigCardComponent implements OnInit {
 
   // @Input() Significa que a propriedade da classe pode ser imputavel.
   @Input()
+  id:string = "0"
+  @Input()
   photoCover: string = ""
   @Input()
   cardTitle: string = ""

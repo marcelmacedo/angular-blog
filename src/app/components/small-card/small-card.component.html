@@ -4,7 +4,7 @@
   </div>
   <div class="small-card__title">
     <h3>
-      <a href="{{ cardLink }}" target="_blank">{{ cardTitle }}</a>
+      <a [routerLink]="['content', id]">{{ cardTitle }}</a>
     </h3>
   </div>
 </div>

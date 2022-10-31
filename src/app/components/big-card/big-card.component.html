@@ -1,21 +1,16 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/ANGULAR.png"
-      alt=""
-      srcset=""
-    >
+    <img src="{{ photoCover }}" alt="" srcset="" />
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Why do we use it?</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
   <div class="big-card__description">
     <p>
       <a href="#">
-        It is a long established fact that a reader will be distracted by the readable content of a
-        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
-        normal distribution of letters, as opposed to using 'Content here, content here', making it look
-        like readable English.
+        {{ cardDescription }}
       </a>
     </p>
   </div>
